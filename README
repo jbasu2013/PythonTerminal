@@ -10,4 +10,8 @@ These two modules show you how to use serial COM ports on Windows 10 to do the f
 - handle received data with your own event-handler
 - send lines of text at regular intervals from a file (replay a log file)
 
+Additional changes needed for simplified usage
+Modify : 1) Add receive functions to serial_rx_tx.py class
+         2) create a new file terminal1.py remove reference to tk, and make it fully command based
+
 
